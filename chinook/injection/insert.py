@@ -17,8 +17,8 @@ cur = conn.cursor()
 if args.roster:
     with open(args.roster) as f:
         for record in f:
-            name = record.strip()
-            cur.executescript(f"INSERT INTO students (name) values ('{name}')")
+            name = record.strip(";")
+            cur.executescript(f'INSERT INTO students (name) values ("{name}")')
             conn.commit()
         conn.close()
 
