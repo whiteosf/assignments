@@ -30,6 +30,12 @@ data was added to the database.
 6. Repeat step 2. What's changed? Why did this happen?
 7. Rewrite `insert.py` to protect it from injection attacks.
 
+## Docs & Resources
+
+- [SQL SELECT Statement](https://www.w3schools.com/sql/sql_select.asp)
+- [`sqlite3`](https://docs.python.org/3/library/sqlite3.html#module-sqlite3)
+- [Robert Tables](https://xkcd.com/327/)
+
 ## Bailing Out
 
 To reset the state of the database to its original form, run the following command in your working directory:
