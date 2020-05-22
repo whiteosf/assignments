@@ -23,8 +23,16 @@ For the questions below, name each view according to the number of the question 
 
 ## Queries
 
+<<<<<<< HEAD
 1. List all unique albums that are represented in the "Grunge" playlist.
 2. How much total money was billed for the TV Show genre?
 3. In which countries does Jane Peacock represent clients?
 4. How many customers have no company listed?
 5. What is the average amount of money spent by customers with gmail addresses?
+=======
+1. Query all unique albums that are represented in the "Grunge" playlist.
+2. How much total money was billed for TV shows?
+3. In which countries does Jane Peacock represent clients?
+4. How many customers have no company listed?
+5. What is the average amount of money spent by customers with gmail addresses?
+>>>>>>> Rework sql query assignment
