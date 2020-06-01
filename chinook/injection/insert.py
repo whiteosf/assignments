@@ -18,13 +18,29 @@ if args.roster:
     with open(args.roster) as f:
         for record in f:
             name = record.strip()
+<<<<<<< HEAD
             cur.execute("INSERT INTO students (name) VALUES (?)", (name,))
+=======
+<<<<<<< HEAD
+            cur.executescript(f"INSERT INTO students (name) values ('{name}')")
+=======
+            cur.execute("INSERT INTO students (name) VALUES (?)", (name,))
+>>>>>>> a67e48a602b8a5566681ae4fdf897b0872958a0d
+>>>>>>> b683fd1636f8033472a8eb7fc923cd8a7d65829d
             conn.commit()
         conn.close()
 
 else:
     while True:
         name = input("Type your first and last name and hit enter to register. Hit Ctrl+C to quit.\n> ")
+<<<<<<< HEAD
         cur.execute("INSERT INTO students (name) VALUES (?)", (name,))
+=======
+<<<<<<< HEAD
+        cur.execute(f"INSERT INTO students (name) VALUES ('{name}');")
+=======
+        cur.execute("INSERT INTO students (name) VALUES (?)", (name,))
+>>>>>>> a67e48a602b8a5566681ae4fdf897b0872958a0d
+>>>>>>> b683fd1636f8033472a8eb7fc923cd8a7d65829d
         conn.commit()
 

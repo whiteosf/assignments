@@ -35,4 +35,8 @@ For the questions below, name each view according to the number of the question 
 3. In which countries does Jane Peacock represent clients?
 4. How many customers have no company listed?
 5. What is the average amount of money spent by customers with gmail addresses?
+<<<<<<< HEAD
 >>>>>>> Rework sql query assignment
+=======
+>>>>>>> a67e48a602b8a5566681ae4fdf897b0872958a0d
+>>>>>>> b683fd1636f8033472a8eb7fc923cd8a7d65829d
